@@ -1,0 +1,52 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+*.ncb
+*.aps
+*.pch
+*.ipch
+*.obj
+*.ilk
+*.pdb
+*.tlb
+*.tlh
+*.tmp
+*.log
+*.bak
+*.old
+*.resharper
+*.dotSettings
+*.cache
+*.scc
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Tt]emp/
+*.exe
+*.dll
+*.lib
+*.exp
+*.vshost.*
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Resharper
+_ReSharper.*/
+*.resharper
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Other common files
+Thumbs.db
+Desktop.ini
