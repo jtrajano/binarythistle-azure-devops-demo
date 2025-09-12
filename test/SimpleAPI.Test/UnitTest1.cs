@@ -15,10 +15,11 @@ public class UnitTest1 : BaseAPITest, IDisposable
     }
 
     [Fact]
-    public async Task Test1()
+    public async Task Names_API_Is_Working()
     {
         var result = await _client.GetAsync("/api/names");
         var s = await result.Content.ReadAsStringAsync();
+        Assert.True(result.IsSuccessStatusCode);
         Assert.NotNull(s);
     }
 
