@@ -12,7 +12,8 @@ namespace SimpleAPI.Extensions
                     "Jeff",
                     "james",
                     "John",
-                    "Jeff"
+                    "Jeff",
+                    "Ashton"
                 });
 
             });

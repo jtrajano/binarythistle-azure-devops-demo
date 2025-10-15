@@ -1,6 +1,10 @@
-@SimpleAPI_HostAddress = http://localhost:5088
+@SimpleAPI_HostAddress = https://localhost:7063
 
 GET {{SimpleAPI_HostAddress}}/weatherforecast/
 Accept: application/json
+
+###
+
+GET {{SimpleAPI_HostAddress}}/api/names
 
 ###
