@@ -18,6 +18,11 @@ namespace SimpleAPI.Extensions
 
             });
 
+            group.MapGet("/{id:int}", (int id) =>
+            {
+                return Results.Ok(Math.Pow(id, 2));
+            });
+
         }
     }
 }
