@@ -1,4 +1,5 @@
-@SimpleAPI_HostAddress = https://localhost:7063
+@SimpleAPI_HostAddress = https://simpleapi001-g5hrbxh5bhbnbway.eastasia-01.azurewebsites.net 
+
 
 GET {{SimpleAPI_HostAddress}}/weatherforecast/
 Accept: application/json
@@ -8,3 +9,4 @@ Accept: application/json
 GET {{SimpleAPI_HostAddress}}/api/names
 
 ###
+## //https://localhost:7063
